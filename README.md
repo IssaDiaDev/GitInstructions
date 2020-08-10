@@ -3,9 +3,10 @@
 # Principales Commandes Git 
 
 
-+ git init ==> Crée un dépôt Git vide ou réinitialise un dépôt existant.
 
- + git add + NomFichier ==> Ajouter un ou plusieurs fichiers dans le repository crée.
++ `git init` ==> Crée un dépôt Git vide ou réinitialise un dépôt existant.
+
+ + `git add + NomFichier` ==> Ajouter un ou plusieurs fichiers dans le repository crée.
      + tip = git add . ==> Ajoute tous les fichiers d'un dossiers dans le repository.
 
  + git commit -m "NomCommit" ==> Enregistrer ses modifications par le biais d'un commit.
