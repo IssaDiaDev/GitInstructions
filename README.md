@@ -6,17 +6,17 @@
 + git init ==> Crée un dépôt Git vide ou réinitialise un dépôt existant.
 
  + git add + NomFichier ==> Ajouter un ou plusieurs fichiers dans le repository crée.
-    tip = git add . ==> Ajoute tous les fichiers d'un dossiers dans le repository.
+     + tip = git add . ==> Ajoute tous les fichiers d'un dossiers dans le repository.
 
  + git commit -m "NomCommit" ==> Enregistrer ses modifications par le biais d'un commit.
 
  + git status ==> Affiche la liste des fichiers modifiés
 
  + git log ==> Donne la liste de tous les commits effectués (du plus récent au plus vieux commit identifié chacun par un code SHA). 
-    tip = git commit -a -m "NomCommit".
+     + tip = git commit -a -m "NomCommit".
 
  + git checkout + SHADuCommit ==> Se positionner sur un commit précis.
-    tip = git checkout master ==> Revenir au commit le plus récent.
+     + tip = git checkout master ==> Revenir au commit le plus récent.
 
  + git revert  + SHADuCommit ==> Crée un nouveau commit qui fait l'inverse du précédent.
 
@@ -40,7 +40,7 @@
 
 
  + git checkout + NomBranche ==> Accéder à une branche
-    Tip= git checkout -b + NomBranche ==> Créer une nouvelle branche puis s'y positionner directement.
+     + tip= git checkout -b + NomBranche ==> Créer une nouvelle branche puis s'y positionner directement.
 
  + git merge + NomBranche ==> Ajouter les modifications de la branche du nom désigné dans la commande.
 
